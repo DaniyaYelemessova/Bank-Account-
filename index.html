@@ -7,7 +7,22 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <h1>Bank Account</h1>
+    <form>
+      <!-- new accounts -->
+      <label for="userIdInput">Name:</label>
+      <input type="text" id="userId">
+      <label for="initialDeposit">Initial Deposit: </label>
+      <input type="number" id="initialDeposit">
+      <!-- transactions -->
+      <select id="transactions">
+        <option value="deposit">Deposit</options>
+        <option value="withdrawal">Withdrawal</option>
+      </select>
+      <label for="amount">Amount: </label>
+      <input type = "number" id="amount">
+      <button type="submit">Submit</button>
+    </form>
 
 
 
